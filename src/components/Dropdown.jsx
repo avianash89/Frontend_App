@@ -52,7 +52,6 @@ export default function Dropdown() {
                 </select>
               </div>
               <input type="text" value={select} placeholder="Select an option" onChange={handleSelectChange} />
-
             </div>
             <button className="go-btn" onClick={handleGoClick}>
               Go
