@@ -43,7 +43,7 @@ export default function Dropdown() {
             <div className="drop-search">
               <div className="item-drop">
                 <select onChange={handleSelectChange} value={select}>
-                  <option value="">Select an option</option>
+                  <option value="">Select any option</option>
                   {optionEx.map((value, index) => (
                     <option key={index} value={value.ex}>
                       {value.ex}
@@ -51,7 +51,7 @@ export default function Dropdown() {
                   ))}
                 </select>
               </div>
-              <input type="text" value={select} placeholder="Select an option" onChange={handleSelectChange} />
+              <input type="text" value={select} placeholder="Select any option" onChange={handleSelectChange} />
             </div>
             <button className="go-btn" onClick={handleGoClick}>
               Go
