@@ -68,7 +68,7 @@ const progressHandler = () =>{
           <div className="dropdown-with-input">
             <div className="drop-search">
               <div className="item-drop">
-                <select onChange={handleSelectChange} value={select} >
+                <select onChange={handleSelectChange} value={select}>
                   <option value="">Select an option</option>
                   {optionEx.map((value, index) => (
                     <option key={index} value={value.ex} >
