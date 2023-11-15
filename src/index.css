@@ -9,7 +9,7 @@ html {
   font-size: 62.5%;
   height: 100%;
   width: 100%;
-  background: red;
+  background: linear-gradient(to right, #90933c, #be4821); 
 }
 
 
