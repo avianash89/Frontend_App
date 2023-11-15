@@ -59,7 +59,7 @@
 }
 
 .drop-search input {
-    width: 65%;
+    width: 70%;
     height: 5rem;
     font-size: 2rem;
     padding-left: 1rem;
@@ -76,6 +76,7 @@
     outline: none;
     cursor: pointer;
     background: rgb(51, 150, 51);
+    border-radius: 17px;
 }
 
 .progress-bar {
